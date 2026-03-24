@@ -1,0 +1,23 @@
+AUT - Application Under Test
+	Web App
+		|_server	-	App, DB
+		|_client		-	WebBrowser (FrontEnd)
+
+UAT - User Acceptance Testing
+
+Html:
+	Types of Elements:
+			In-line
+				input type = text
+				input type = radio
+				input type = checkbox
+				input type = button/submit
+				select - single/multiple
+				a href=""
+				div, span
+				ul, ol
+				table
+				iframe
+				nav, article, footer, header
+				headings, images
+			Block Level

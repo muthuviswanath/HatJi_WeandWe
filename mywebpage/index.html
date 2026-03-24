@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyApp</title>
+    <style>
+        body{
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            display: flex;
+            width:900px;
+            border-radius:25px;
+            position:relative;
+            box-shadow: var(--shadow-glass);
+            border: 2px solid black;
+        }
+        .btn{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border:none;
+            outline: none;
+            background-color: rgb(27, 130, 239);
+            color:white;
+        }
+        .form-div{
+            padding:3rem;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h2>Capgemini AutoTest Pro</h2>
+            <p>Learn Automation</p>
+        </div>
+        <div class="form-div">
+            <form action="dashboard.html" method=""post>
+                <label for="username">Username</label>
+                <input type="text" id="username">
+                <br><br>
+                <label for="password">Password</label>
+                <input type="password" id="password">
+                <br><br>
+                <input type="submit" value="Login" class="btn">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
