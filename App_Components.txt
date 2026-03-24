@@ -1,0 +1,16 @@
+1. UI
+2. Business Rules/Validations
+3. Role Based Access
+4. Data
+		|_ Structured
+					|_One time setup 	- Configurational Data
+					|_Field Names			- Master Data - Driven by Domain
+					|_Day to Day Data 	- Transactional Data
+		|_Unstrucured
+5. Database
+					|_OLTP - RDBMS, NOSql		-	Transactions
+					|_OLAP - Teradata					-	Historical Data
+6. Log
+7. APIs
+8. Reports
+9. Backend Jobs
