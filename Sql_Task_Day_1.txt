@@ -1,0 +1,30 @@
+-- Select only the names of the employee and their job role from the emp table
+select ename, job from emp;
+
+-- Select the ename, job and sal from emp table and display it as employee_name, jobrole, salary
+select ename as employee_name, job as jobrole, sal salary from emp;
+
+-- Display the employee records as follows
+-- Ex: SCOTT is working as ANALYST in DEPTNO 20 and earning 3000
+
+-- Select the employees who are working in Deptno 20
+select * from emp where deptno=20;
+
+-- Select the employees who are managers
+select * from emp where job='manager';
+
+-- Select the employees who are earning a salary > 2500
+select * from emp where sal > 2500;
+
+-- Calculate the quarterly, annual salary of the employee taking the sal as monthly salary
+select sal*3 as QUARTERLY_SAL, sal*12 ANNUAL_SALARY from emp;
+
+-- Give 18% hike to all the employees and display their newly hiked salary
+select empno, ename, sal as "Old Salary", sal*1.18 as"Newly Hiked Salary", job, deptno from emp;
+
+
+-- Employees are listed for pay cut of 12.45% from their monthly salary. Calculate their CTC.
+-- Empname, RegularPay, RevisedPay, PreviousCTC, CurrentCTC
+
+select * from emp;
+-- 
