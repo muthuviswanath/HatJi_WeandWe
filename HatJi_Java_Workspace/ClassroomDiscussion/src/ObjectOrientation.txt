@@ -1,0 +1,104 @@
+Identify the Objects that are present in the problem statement
+
+Ramu sells Vegetables
+No.Of Objects: 2
+They are: Ramu, Vegetables
+Is there any action word present? Yes, sells
+
+Object:
+	In real world, anything that is present which is able to be seen, 
+	touched, or experienced, and that which has properties and behaviors
+	and that which has mass and occupies space is called as an Object
+	
+	In java, we are going to create objects that represents the real
+	world objects.
+	
+	It is possible to create multiple objects using the same class and
+	they are called as similar objects.
+	
+	An object can have multiple references
+	
+	If one object is modified or destroyed, it will neither affect the
+	other object nor the class.
+	
+	In java objects can be created in 6 ways and the most common way
+	is to create using new keyword
+	
+	Objects are always created in heap memory
+	
+	Without a class objects cannot be created
+	
+	
+	Cow gives Milk
+	
+	class Cow{
+		
+	Milk gives(Hay h, Water w){
+		return new Milk()
+	}
+	}
+	
+	class Milk{
+	
+	}
+	
+	class Hay{}
+	class Water{}
+	
+	
+	
+	Conductor issues ticket by taking money and 
+	destination as input.
+	
+	class Conductor{
+	
+			Ticket issues(Money m, String destn){
+				return new Ticket()
+			}
+	}
+	class Ticket{}
+	class Money{}
+	
+	
+	issues
+	
+	
+	
+	Shakespere reads Novel
+	
+	class Shakespere{
+			
+			void reads(Novel n){
+				
+			}
+	}
+	class Novel{
+	
+	}
+	
+	
+	ATM dispense cash by taking inputs from the user
+	
+	Bank Balance: 65450.67
+	
+	class ATM{
+			Cash dispense(Card c, int pin,int amount){
+				return new Cash()
+			}
+	}
+	class Cash{
+	
+	}
+	
+	class User{
+	
+	}
+	
+	class Card{
+	
+	}
+		
+	
+	
+	
+	
