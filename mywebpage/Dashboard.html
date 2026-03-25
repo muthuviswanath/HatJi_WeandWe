@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul li {
+  float: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #111;
+}
+
+ul li a.active {
+  background-color: #047eaa;
+}
+    </style>
 </head>
 <body>
-    Dashboard
+    <ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a href="#about">Logout</a></li>
+</ul>
+<div style="  display: flex;
+  justify-content: center;
+  align-items: center;    
+  height: 200px; ">
+<img src="https://www.gsma.com/solutions-and-impact/technologies/networks/wp-content/uploads/2025/06/Capgemini-logo.webp" alt=""
+        width="200" height="100">
+        </div>
+<h1 style="text-align: center;">
+    Capgemini AutoTest Pro Dashboard
+</h1>
 </body>
 </html>
