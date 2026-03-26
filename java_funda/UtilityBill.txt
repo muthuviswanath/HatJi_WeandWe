@@ -1,0 +1,33 @@
+Create a menu driven code for the following requirements:
+Problem Statement 1:
+
+Utility Bill Calculator:
+
+1. Electricity Bill
+2. Water Bill								
+3. Exit
+
+Requirements:
+
+Cost per unit is 2.45 INR for Residential and 5.65 INR for Commercial. You are supposed to get the input from the user and based on whether it is commercial or residential usage, the bill has to be calculated. First 100 units is free
+for residential. So calculate the bill accordingly.
+
+With respect to water bill, if it is for residential usage, a litre is charged at 3.5 INR and if it is commercial, a litre is charged 5.65 INR. For a commerical purpose, if the water consumed is more than 5 gallons, then a discount of 2% is 
+applicable on the bill. 1 gallon = 1000 litre
+
+1. Electricity Bill
+2. Water Bill
+3. Exit
+
+1
+Are you a residential user / Commercial User [R/C]: R
+Enter the unit consumed: 85\
+Bill Amount: 0.0
+1. Electricity Bill
+2. Water Bill
+3. Exit
+1.
+Are you a residential user / Commercial User [R/C]: C
+Enter the unit consumed: 100
+Bill Amount: 565
+

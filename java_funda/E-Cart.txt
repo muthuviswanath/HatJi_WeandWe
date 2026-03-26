@@ -1,0 +1,23 @@
+Create a class called Product and define the necessary properties for it
+ProductId, ProductName, ProductPrice
+
+Create a class called as CapKart
+
+1. Create Product
+2. Add Product to Cart
+3. View Cart
+4. Track Shipping
+5. Exit
+
+1. 
+ProductId
+ProductName
+ProductPrice
+
+2.Enter the quantity
+
+3. Display the Cart information along with the updated price
+	Update the shipment status: [Shipped/OutForDelivery/Delivered]
+
+4. Your product [ProductName] with OrderId: [OrderId] is [Status]
+5. Exit
