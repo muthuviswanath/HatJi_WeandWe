@@ -1,11 +1,11 @@
 
 public class Flp {
 public static void main(String[] args) {
-	float d = 12.45f;
+	int d = 12;
 	switch (d) {
-	case 10.34: 
+	case 10: 
 		System.out.println("double");
-	case 12.45: 
+	case 12: 
 		System.out.println("double");
 	default:
 		System.out.println("Not possible");
