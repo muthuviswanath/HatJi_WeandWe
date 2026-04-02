@@ -1,0 +1,58 @@
+Question 1: Remove Specific Character.
+
+Sample Input 1 (Valid):
+
+hello world
+o
+
+Output: 
+hell wrld
+
+=========================================================================================================================================================
+
+Question 2: Capitalize First Letter of Each Word
+
+Sample Input 1 (Valid):
+
+hello world from java
+
+Output: 
+Hello World From Java
+
+=========================================================================================================================================================
+
+Question 3: String Rotation Checker. For example, "waterbottle" is a rotation of "erbottlewat".
+
+Sample Input 1 (Valid):
+
+waterbottle
+erbottlewat
+
+Output: 
+
+True
+
+=========================================================================================================================================================
+
+Question 4: Count Words Ending with Specific Letter
+
+Sample Input 1 (Valid):
+
+This quick brown foxes jumps
+s
+
+Output: 
+3
+
+=========================================================================================================================================================
+
+Question 5: Replace Substring
+
+Sample Input 1 (Valid):
+
+banana 
+na
+xy
+
+Output: 
+baxyxy

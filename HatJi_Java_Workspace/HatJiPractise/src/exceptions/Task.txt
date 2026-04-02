@@ -1,0 +1,31 @@
+Create a banking Application such that the user will be able to perform the 
+following operations
+
+1. Create Bank Account
+2. Deposit Money
+3. Withdraw Money
+4. check Balance
+5. Exit
+
+Create custom exception classes for
+1. InvalidAmountException
+2. InvalidOTPException
+3. InvalidAccountNumberException
+
+1. Enter your Account Number:
+   Enter your Name:
+   Enter your Opening Balance:
+   
+2. Enter your Account Number:
+	If the account number doesnt match the account number you mentioned while
+	creating the account, it should throw InvalidAccountNumberException
+3. Enter the amount to withdraw:
+	If the amount to be withdrawn is <=0 || > accountbalance :   InvalidAmountException
+   Enter the OTP received: 
+    If the OTP enterd != 1234 then : InvalidOTPException
+4. 
+--------------------------------------------------------------------------------------
+Account Holder Name: Muthu
+Account Number: 176453234456
+Current Balance: 10000
+--------------------------------------------------------------------------------------
