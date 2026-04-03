@@ -1,0 +1,10 @@
+Create a menu driven code to implement music player with the following menu options
+
+1. Add Songs to the Player
+2. Start 			- Should always play from the first song
+3. Pause			- Should pause playing the current song
+4. Resume			- Should resume playing the current song
+5. Stop				- Stop playing the song
+6. Prev				- Should go to the previous song 
+7. Next				- Should go to the next song
+8. Exit				- Exit the app

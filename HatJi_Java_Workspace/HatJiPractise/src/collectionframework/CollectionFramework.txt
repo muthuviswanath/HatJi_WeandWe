@@ -1,0 +1,97 @@
+It is an abstraction which has generic or common functionalities and utilities.
+The common functionalities and utitlies can be extended or modified by additional
+user defined code.
+The purpose is for application development
+It is tested, best design principles and design patterns are implemented.
+
+Collection Framework:
+
+Deals with group of data
+It has predefined interfaces, implementation classes, methods, which are collectively
+present in java.util package
+
+Why?
+
+1. Scalability
+2. To store heterogeneous data
+3. Effective data handling (manipulations like CRUD is easy)
+4. It has predefined data structures implemented 
+
+
+Array 							 							Collection
+
+Homogeneous in nature where									Heterogenous in nature
+only one type of data										where different types of 
+will be stored.												data can be stored.
+
+It is static or fixed in size								It is dynamic in size
+
+Doesn't have inbuilt methods								Have inbuilt methods for
+for data handling											data handling
+
+Can store primitive data types								Can store only non-primimtive
+															data types
+															
+The object array behaves like								Can store the object as 
+it can store heterogeneous values							well as references
+wherein it always stores references
+
+
+												<<Interface>>
+												  Iterable
+												  
+												  
+												<<Interface>>
+												  Colelction
+												  
+												  
+	<<List>>										<<Set>>									<<Queue>>
+	Since 1.2										Since 1.2								Since 1.5
+	
+	
+	ArrayList		LinkedList		Vector			HashSet			<<SortedSet>>			PriorityQue		<<BlockingQueue>>	ArrayDequeue
+	1.2				1.2				1.0				1.2				1.2						1.5
+	
+	
+									Stack			LinkedHashSet	<<NavigableSet>>		
+									1.0				1.4				1.6
+									
+																	
+																	TreeSet
+																	1.2
+																	
+																	
+																	
+																	
+																	
+List:
+	1. Can store duplicates
+	2. It is an index based collection
+	3. Random access is possible
+	4. Can store more than one null values
+
+ArrayList:
+	1. It maintains the insertion order
+	2. It is a non-synchronized class
+	3. It internally uses (dynamic/growable) array.
+	4. Data is stored in the form of Array.
+	5. Initial capacity and incremental capacity are applicable
+	6. Default capacity is 10 elements
+	7. When the 11th element is stored the capacity inrements as follows
+			((Current Capacity) * 3)2 + 1
+				(10 * 3)/2 + 1
+				= 16
+	8. It is not possible to control the growth.
+	9. It involves shift operations while inserting and deleting the values
+	10. Consumes less memory
+	11. Memeory is continuous
+	12. Three Overloaded constructors:
+		ArrayList(int initialCapacity)
+		ArrayList()
+		ArrayList(Collection<? extends E> c)
+	
+	Syntax:
+		ArrayList <Generic> arraylist_name = new ArrayList <Generic> ();
+		ArrayList <Generic> arraylist_name = new ArrayList <Generic> (initial_capacity);
+		ArrayList <Generic> arraylist_name = new ArrayList <Generic> (collection_name);
+		
