@@ -25,6 +25,26 @@ b2R4f
 g2T6h
 h7J5i
  */
-public class PatternMatcher {
 
+import java.util.Scanner;
+
+public class PatternMatcher {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		scan.nextLine();
+		String arr[] = new String[n];
+		for (int i=0; i<n; i++) {
+			arr[i] = scan.next();
+		}
+
+		for(int i=0; i < n; i++) {
+			String s = arr[i];
+			if(s.length()==5 && Character.isLowerCase(s.charAt(0))
+					&&Character.isDigit(s.charAt(1)) && Character.isUpperCase(s.charAt(2))
+					&&Character.isDigit(s.charAt(3)) && Character.isLowerCase(s.charAt(4))) {
+				System.out.println(s);
+			}
+		}
+	}
 }

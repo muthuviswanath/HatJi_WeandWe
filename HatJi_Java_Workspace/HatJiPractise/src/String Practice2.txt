@@ -81,7 +81,7 @@ Sample Input:
 5
 level
 Madam
-civic
+civ ic
 World
 rotor
 

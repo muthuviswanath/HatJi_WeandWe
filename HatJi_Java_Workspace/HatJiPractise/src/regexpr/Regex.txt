@@ -1,0 +1,44 @@
+The patterns can be represented using character classes
+
+[abcd]		-	This means that the pattern can be  containing a or b or c or d
+[^abc]		-	This means that the pattern can be any other characters other than a or b or c.
+				^ is used for negation
+[a-zA-Z]	-	Any characters from lower case a to z (inclusive) or upper case A to Z is accepted
+This can be combined and formed different patterns
+
+Example:
+
+[a-g[j-r]]	- 	It means any character from a to g is allowed or j to r is allowed not the other characters
+				This is in short for union
+
+We can use logical and as well
+
+[a-z && [^bc]] 	This means that a-z the characters are accepted except for b and c
+
+
+Quantifiers:
+
+a?				Means a occurs once or not at all
+a+ 				a occurs one or more times
+a* 				a occurs zero or more times
+a{n} 			a occurs n times only Ex a{2}. a occurs 2 times only
+a{n,}			a occurs n or more times Ex a{2,}. a occurs 2 times or more than 2 times
+a{x,y} 			a occurs at least x times but less than y times Ex a{3,8} a occurs at least 3 or more times but
+				less than 8 times
+				
+
+
+MetaCharacters:
+
+. 									any character. It may match or may not match
+\d 									Expects to have only digits alternative for [0-9]
+\D 									Expects to have anything other than digits . alternative for [^0-9]
+\s 									Represents a white space. It can be [\t or \n  or \f or \ r]
+									\t means tab
+									\n means new line
+									\f meens feed
+									\r means carriage return
+\S 									any non whitespace characters. alternative for [^\S]
+								
+
+
