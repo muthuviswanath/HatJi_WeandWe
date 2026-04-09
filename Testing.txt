@@ -1,0 +1,115 @@
+SDLC - STLC
+
+It is a procedure / process to develop, create, modify the system models.
+
+It includes 
+
+Initiation										-	Requirement Gathering
+															- Business Proposal
+																		|_ Strategy
+																				|_Subject Matter Expert
+																				|_Master Service Agreement
+																							|_Service Level Agreement
+																		|_ Cost
+																				|_ Payment Terms
+																				|_ Estimation
+
+																		|_ Time of Delivery	
+																				|_ 
+Analysis															Architect, Project Manager, 
+																		HR, Finance, BA
+Design																HLD, LLD
+Development Testing										Python DRF, React, Selenium, RestAssured		
+Deployement Maintenance								Host and maintain the production
+
+
+
+
+Unit Testing:
+	Done by developers
+	Tools: Junit, Pytest
+	Assertions to ensure the outcomes
+	Code Coverage
+
+BlackBox Testing:
+	
+
+
+Functional Testing:
+	Unit Level Testing
+
+Step 1:
+		Navigational Step - Open the browser and navigate to the url: https://www.saucedemo.com
+		Enter the value mentioned						standard_user					 
+		in the username text box
+
+
+Thoroughly test each and every component
+Start testing the components by providing valid input
+If it works, go for invalid inputs if the application works for invalid input(conflict with requirement)
+raise the bug.
+
+
+As a test engineer can i assume? No
+As a test engineer can i propose changes to the functionality? No
+As a test engineer what should i need to do if i have confusion? Contact Seniors, Developer, PM, BA, Client (Email)
+
+---------------Integration Testing----------------------
+Testing the data flow between two or more modules (stories) is called as integration testing
+How?
+1. Dependency between the modules
+2. Application should've passed the funcionality testing for the dependent modules
+
+Incrementally: Forward & Backward
+Non-Incrementally
+
+When the actual module is not ready and instead of that the developers have included a dummy module which acts like a real module, it is called as stubs. 
+------------ System Testing-------------------------------
+1. Environment
+		The resources that are required to peform the task
+Development: The resources that are required to peform the task of creating, modifying the application
+Testing: The resources that are required to peform the task of verifying and validating the apps functionality
+Production: The resources that are required to peform the task of executing the build by the end users
+
+Testing the application from the start module to the end module by going through all the other dependent modules. Alternatively testing the application E2E is called as system testing
+
+1. The system should be functionally stable
+2. There must be a MVP
+
+For an application there must be one primary goal at least
+There can be other multiple secondary goals
+
+Build - The codes that are compiled, compressed and kept in .jar/.war/.ear/.zip/.exe format
+which can be deployed in production
+
+When there is a problem that is identified in the production and the production team is raising the bug
+it is called defect. 
+
+When the developers fix the defect it is called as hotfix
+
+Re-release the build with the fixes and that is called as patch/updates
+
+Re-release is called as Re-spin
+
+
+To avoid re-release we have to make sure that the test environment is similar as the production environment
+
+
+---------------------Compatibility Testing---------------------------------
+
+Test the application in various platfroms or various browsers or various version of the same 
+browser
+
+If the application is developed using  a prior version and tested using the recent one, it is called
+forward compatibility testing. The reverse is called backward compatibility testing
+
+ The platform/browser is choosen based on the following:
+ 1. Requirements
+ 2. Popularity Index
+
+ Why?
+ To retain the customer base and to avoid bad names spreading in the market
+
+ 
+
+

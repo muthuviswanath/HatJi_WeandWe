@@ -61,8 +61,15 @@ public class IdentifyPattern {
 		
 		
 		// You guys after copying this down can leave for the day.
+		// The code is uploaded to GitHub. Start as the environment is not safe
 		
+		String myemail_1 = "muthu@outlook.com";
+		String myemail_2 = "muthu@test.gov.in";
+		String myemail_3 = "muthu@test.co.in";
 		
+		System.out.println(myemail_1.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z]+(\\.[a-zA-Z]{2,})+$"));
+		System.out.println(myemail_2.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z]+(\\.[a-zA-Z]{2,})+$"));
+		System.out.println(myemail_3.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z]+(\\.[a-zA-Z]{2,})+$"));
 		
 		
 	}
